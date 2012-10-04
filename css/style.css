@@ -1,0 +1,168 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+body {
+    /*
+    background-color: #FFFFFF;
+    */
+    background-image: url("../img/paper01.png");
+}
+
+#main {
+    width: 900px;
+    height: 700px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 30px;
+}
+
+#base {
+    position: absolute;
+}
+
+
+#title {
+    top: 150px;
+    left: 150px;
+}
+
+.content {
+    width: 600px;
+    height: 400px;
+    background-color: #C0C0C0;
+    opacity: 0.7;
+    position: absolute;
+
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    -khtml-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.content_text {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+    color: #000000;
+    font-weight: 900;
+    font-size: 16px;
+    font-family: "'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Arial,Verdana,'ＭＳ Ｐゴシック',sans-serif;";
+    line-height: 18px;
+
+    overflow: auto;
+}
+
+
+
+#about {
+    top: -550px;
+    left: 150px;
+}
+
+#blog {
+    top: 150px;
+    left: 1050px;
+}
+
+#mail {
+    top: 850px;
+    left: 150px;
+}
+
+#work {
+    top: 150px;
+    left: -750px;
+}
+
+
+#goabout {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 0px;
+    left: 395px;
+    cursor: pointer; cursor: hand;
+}
+
+#goblog {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 295px;
+    left: 790px;
+    cursor: pointer; cursor: hand;
+}
+
+#gomail {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 580px;
+    left: 395px;
+    cursor: pointer; cursor: hand;
+}
+
+#gowork {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 295px;
+    left: 0px;
+    cursor: pointer; cursor: hand;
+}
+
+#menu_godown {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 580px;
+    left: 395px;
+    opacity: 0;
+    display: none;
+    cursor: pointer; cursor: hand;
+}
+
+#menu_goleft {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 295px;
+    left: 0px;
+    opacity: 0;
+    display: none;
+    cursor: pointer; cursor: hand;
+}
+
+#menu_goup {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 0px;
+    left: 395px;
+    opacity: 0;
+    display: none;
+    cursor: pointer; cursor: hand;
+}
+
+#menu_goright {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 295px;
+    left: 790px;
+    opacity: 0;
+    display: none;
+    cursor: pointer; cursor: hand;
+}
